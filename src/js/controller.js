@@ -85,6 +85,7 @@ const init = function () {
   recipeView.addHandlerUpdateServings(controlServings);
   recipeView.addHandlerAddBookmark(controlBookmark);
   // model.getBookmarks();
+  console.log('New Feature');
 };
 
 init();
